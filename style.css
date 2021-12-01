@@ -1110,8 +1110,32 @@ overflow: hidden;
       left: 8em ;
     }
 
+    .exhibitionsRightGallery{
+      height: 100px;
+    }
+
+    .rightGalleryPreview{
+      margin-top: 3.5em;
+    }
+
+    .rightGalleryContainer{
+      width: 50px;
+    }
+
+    .exhibitionsLeftGallery{
+      height: 100px;
+    }
+
+    .leftGalleryPreview{
+      margin-top: 3.5em;
+    }
+
+    .leftGalleryContainer{
+      width: 50px;
+    }
+
     .imagesSpecialEx{
-      left: 16em;
+      left: 18em;
     }
 
     .imagesLearnHistory{
@@ -1199,6 +1223,10 @@ overflow: hidden;
 
     .infoGraphbtaf p{
       font-size: .5em
+    }
+
+    .fashion h4{
+      padding-top: 1em;
     }
 
     .rbhImagesRoom2{
