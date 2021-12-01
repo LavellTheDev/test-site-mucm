@@ -1063,7 +1063,172 @@ overflow: hidden;
 }
 
 @media only screen
-  and (min-device-width: 375px)
+  and (min-device-width: 700px)
+  and (max-device-width: 740px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+    body{
+      font-size: 1rem;
+    }
+
+    .nav{
+        overflow-y: auto;
+    }
+
+    .logo{
+      width: 8%;
+    }
+
+    .exhibitionssection{
+      width: 50%;
+    }
+
+    .overlay{
+      opacity: 1;
+    }
+
+    .overlay > * {
+      transform: none;
+      transition: none;
+    }
+
+    .overlay:hover{
+      opacity: none;
+    }
+
+    .overlay:hover > * {
+      transform: none;
+    }
+
+
+    .images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery,
+    .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery,
+    .imagesFifthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2{
+      height: 95px;
+      top: 9.5em ;
+      left: 8em ;
+    }
+
+    .imagesSpecialEx{
+      left: 16em;
+    }
+
+    .imagesLearnHistory{
+        left: 14.4em;
+    }
+
+
+    .imagesFirstGallery{
+      left: 10em;
+    }
+
+    .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery{
+      left: 13.5em;
+    }
+
+    .imagesSixthGallery{
+      left: 15em;
+    }
+
+    .imagesSecondGallery h2{
+      font-size: 1.5em;
+      margin-top: 1em;
+    }
+
+    .cardPageTwo{
+        width: 150px;
+        height: 60px;
+        margin-top: 1em;
+    }
+
+    .cardPageTwo p{
+      font-size: 0.4em;
+    }
+
+    .imagesFifthGallery{
+      left: 13.5em;
+    }
+
+    .imagesFifthGallery h2{
+      font-size: .7em;
+    }
+
+    .cardPageThree{
+      width: 140px;
+      margin-left: 0.5em;
+    }
+
+    .cardPageThree p{
+      font-size: 0.4em;
+    }
+
+    .camcapImagesRoom4{
+      left: 13em;
+    }
+
+    .camcapImagesRoom6{
+      left: 12.5em;
+    }
+
+    .camcapImagesRoom7{
+      left: 21em;
+    }
+
+    .hamburger{
+      width: 30%;
+    }
+
+    .card{
+      display: none;
+    }
+
+    .infoGraph, .infoGraphbtaf{
+      margin-top: 8em;
+      margin-left: -6em;
+    }
+
+    .infoGraph, .infoGraphbtaf{
+      width: 400px;
+      height: 130px;
+    }
+
+    .infoGraph p{
+      font-size: .5em;
+    }
+
+    .infoGraphbtaf p{
+      font-size: .5em
+    }
+
+    .rbhImagesRoom2{
+      height: 105px;
+      left: 13em;
+    }
+
+    .cardRbh{
+      height: 100px;
+      margin: 0;
+      width: 200px;
+    }
+
+    .cardRbh h2{
+      font-size: .7em;
+    }
+
+    .cardRbh h4{
+      font-size: .6em;
+    }
+
+    .cardRbh p{
+      font-size: .55em;
+    }
+
+  }
+
+
+@media only screen
+  and (min-device-width: 770px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
